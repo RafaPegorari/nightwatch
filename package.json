@@ -1,0 +1,15 @@
+{
+  "name": "Ciandt-Test",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "java -jar ./bin/selenium-server-standalone-3.2.0.jar",
+    "test": "./node_modules/.bin/nightwatch"
+  },
+  "author": "Rafael Pegorari <rafapegorari@gmail.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "nightwatch": "^0.9.14"
+  },
+  "private": true
+}
